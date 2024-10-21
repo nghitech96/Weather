@@ -1,0 +1,6 @@
+câu lệnh khởi tạo: npm init
+câu lệnh tạo package: npm install async-request (lấy api)
+sửa file config: "start": node app.js ==> npm start sẽ chạy câu lệnh
+them nodemon vào source: npm i nodemon
+sửa file config: "dev": nodemon app.js ==> npm run dev sẽ chạy câu lệnh
+cài express: npm i express
