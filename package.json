@@ -95,8 +95,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "deploy": "vercel --prod"
   },
   "author": "nghi",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+  "node": ">=18"
+  }
 }
